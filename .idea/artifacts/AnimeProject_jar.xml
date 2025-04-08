@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AnimeProject:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AnimeProject_jar</output-path>
+    <root id="archive" name="AnimeProject.jar">
+      <element id="module-output" name="AnimeProject" />
+    </root>
+  </artifact>
+</component>

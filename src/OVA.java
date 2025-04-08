@@ -1,15 +1,12 @@
 import java.time.LocalDate;
 import java.util.Set;
 
-/**
- * Класс для представления OVA (Original Video Animation)
- */
 public class OVA extends Anime {
     private boolean isStandalone;
 
-    public OVA(Set<String> genres, double rating, int episodeCount,
+    public OVA(String title, Set<String> genres, double rating, int episodeCount,
                LocalDate releaseDate, boolean isStandalone) {
-        super(genres, rating, episodeCount, releaseDate);
+        super(title, genres, rating, episodeCount, releaseDate);
         this.isStandalone = isStandalone;
     }
 
